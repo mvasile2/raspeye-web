@@ -1,3 +1,4 @@
+var io = require('socket.io');
 (function () {
   "use strict";
 
