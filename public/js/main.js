@@ -281,7 +281,7 @@
   // image:initial sends the relative path to the latest image known to the server
   // image:live sends live update
   if (document.getElementById('live')) {
-    var socket = io.connect('http://url.to.api/'),
+    var socket = io.connect('http://192.168.1.5/raspeye-web/public/index.html/'),
         el = document.getElementById('live');
 
     socket.on('image:initial', function (data) {
